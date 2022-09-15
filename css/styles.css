@@ -1,0 +1,172 @@
+body {
+  background-color: #e7f6f2;
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  /*font-size in childs are inherited. for example, assume the font-size in h1 is 5em. if I set the font-size for body to 2em, font-size for h1 will be 10em. be careful about that. it is also the same for percentage font-size. It is NOT inherited when declared with pixels (px).
+  declare font-size with px if you don't want it to change relative to the parent.
+  
+  with css3, if you use 'rem' instead of 'em', parents won't affect the child.*/
+}
+
+h1 {
+  color: #2f8f9d;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem; /*equivalent of 90px. 1em = 16px. 100% font-size = 16px. therefore, 625% also equals 90px.*/
+  line-height: 1;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #2f8f9d;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  /* padding-bottom: 10px; */
+}
+
+h3 {
+  color: #25316d;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+div {
+  background-color: #e7f6f2;
+}
+
+hr {
+  border: dotted #97d2ec 4px;
+  border-bottom: none;
+  width: 6%;
+  margin: 100px auto;
+}
+
+a {
+  color: #2f8f9d;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #97d2ec;
+}
+
+.top-container {
+  background: linear-gradient(#b3e8e5, #e7f6f2);
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #b3e8e5;
+  padding: 50px 0 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.image-set {
+  width: 3%;
+  margin: 70px 25px 50px 25px;
+}
+
+.profile-pic {
+  border-radius: 100%;
+  width: 250px;
+}
+
+.webdev-img {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.translation-img {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+.article-img {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.work-example {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.copyright {
+  color: #2f8f9d;
+  font-size: 0.75rem;
+  padding: 20px 0 0 0;
+  margin-bottom: 0;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
